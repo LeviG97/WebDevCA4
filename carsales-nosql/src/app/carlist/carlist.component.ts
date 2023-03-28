@@ -16,7 +16,7 @@ export class CarlistComponent implements OnInit{
   carsData!: ICar;
   show!: boolean;
   _carsAPIService!: CarApiService;
-
+  
 
 
   ngOnInit() {
