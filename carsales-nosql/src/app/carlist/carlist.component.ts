@@ -13,7 +13,7 @@ import { NewCar } from '../Interfaces/cars';
 
 export class CarlistComponent implements OnInit{
 
-  carsData!: ICar;
+  carsData: ICar | any;
   show!: boolean;
   _carsAPIService!: CarApiService;
   
